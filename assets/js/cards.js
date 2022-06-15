@@ -172,7 +172,7 @@ const updateCartCount= () => {
 
 let buyCardButton = document.querySelector("#buyCard");
 buyCardButton.addEventListener("click", () => {
-let buy_quantity = parseInt(document.querySelector("#buy_quantity").value) ;
+let buy_quantity = parseInt(document.querySelector("#buy_quantity").value);
 let buy_type = document.querySelector('#buy_type').value;
 addToCheckout(buy_type, buy_quantity);
 });
