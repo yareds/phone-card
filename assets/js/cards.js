@@ -134,7 +134,7 @@ let balanceTable = 0;
 //let currentBalance;
 
     const totalBalance = () => {
-   //if (checkout.length > 0) {
+   //gitif (checkout.length > 0) {
     checkout.forEach( (card) => {
 
     //balanceTable = "";
